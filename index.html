@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> PORTFOLIO </title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--partie navigateur-->
+    <header>
+        <p> Mon portfolio</p>
+        <form>
+            Search <input type="text" name="Recherche" />
+        </form>
+        <nav class="navbar">
+            <a href="Accueil"> Accueil</a>
+            <a href="A propos"> A propos</a>
+            <a href="Travail"> Travail</a>
+            <a href="Cv">Cv</a>
+            <a href="Contact"> Contact</a>
+        </nav>
+    </header>
+    <!--partie navigateur-->
+
+    <!--partie main-->
+    <main>
+        <div>
+            <div>
+                <section class="p1">
+                    <h1> A propos </h1>
+                    <p> Je suis un développeur web passionné qui vient de terminer une formation en développement web.
+                        J’ai une solide compréhension des langages de programmation tels que HTML, CSS et JavaScript.
+                        J’ai
+                        également travaillé sur plusieurs projets personnels, y compris la création d’un site Web pour
+                        une
+                        petite entreprise locale. Mon objectif est de travailler dans une entreprise qui me permettra de
+                        continuer à apprendre et à développer mes compétences en développement web. Je suis une personne
+                        travailleuse et déterminée qui est prête à relever de nouveaux défis. En dehors du travail,
+                        j’aime
+                        passer du temps à explorer de nouvelles technologies et à apprendre de nouvelles compétences.
+                    </p>
+                </section>
+            </div>
+            <div>
+                <section class="p2">
+                    <h1> Travail </h1>
+                    <p>Le travail d’un développeur consiste à concevoir, programmer et mettre en œuvre des applications
+                        et
+                        des logiciels pour répondre aux besoins spécifiques des utilisateurs grand public ou
+                        professionnels.
+                        Pour cela, il utilise différents langages de programmation tels que HTML, CSS, JavaScript, C,
+                        SQL,
+                        Java, etc.
+                        <img src="de.jpeg" alt="développer" width="450" height="300">
+                        <iframe width="450" height="300" src="https://www.youtube.com/embed/zcTFG_F0FRs"></iframe>
+                    </p>
+                </section>
+            </div>
+            <div >
+                <section class="p3">
+                    <h1> Cv</h1>
+                    <p> <a href="#"> Télécharger le cv</a></p>
+                </section>
+            </div>
+            <div>
+                <section >
+                    <h1> Contact </h1>
+                    <form>
+                        <label>Courriel:</label>
+                        <input type="text" name="first name" value="jean2001@gmail.com" />
+                        <br />
+
+                        <label>Numero:</label>
+                        <input type="number" name="number" value="705556611" />
+                        <br />
+
+                        <label>Adresse:</label>
+                        <input type="text" name="Adresse" value="Ouakam Cité Batrin"/>
+                        <br />
+                    </form>
+                    <p></p>
+                </section>
+            </div>
+        </div>
+    </main>
+    <!--partie main-->
+    <footer>
+        <p> Auteur: Cesaire Malack <br>
+            &copy;; 2024 Tout droits réservés
+
+        </p>
+    </footer>
+</body>
+
+</html>
